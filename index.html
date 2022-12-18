@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>PomoClone</h1>
+        </div>
+        <div class="main">
+            <div class="buttons">
+                <button id="button1" class="button--active" onclick="setPomodoro()">Pomodoro</button>
+                <button id="button2" onclick="shortBreak()">Short Break</button>
+                <button id="button3" onclick="longBreak()">Long Break</button>
+            </div>
+            <span id="clock">25:00</span>
+            <button id="startStop" onclick="start()" class="start">START</button>
+        </div>
+        <p class="center--darker" id="which--break">It is your 1# focus time</p>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
